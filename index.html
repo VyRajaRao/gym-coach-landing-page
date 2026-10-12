@@ -239,12 +239,15 @@
           <!-- Replace with your video. Options:
              MP4:    <video src="your-demo.mp4" controls></video>
              YouTube: <iframe src="https://www.youtube.com/embed/YOUR_ID" ...></iframe>
+             Drive:  <video src="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" controls></video>
         -->
-          <iframe
-            src="https://drive.google.com/file/d/15uhtbV_BqiLkVs9Cf1KvOu2swamg8Rw1/preview"
-            allow="autoplay"
-            allowfullscreen
-          ></iframe>
+          <video controls playsinline>
+            <source
+              src="https://drive.google.com/uc?export=download&id=15uhtbV_BqiLkVs9Cf1KvOu2swamg8Rw1"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
 
