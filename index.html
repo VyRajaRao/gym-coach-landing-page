@@ -239,12 +239,23 @@
           <!-- Replace with your video. Options:
              MP4:    <video src="your-demo.mp4" controls></video>
              YouTube: <iframe src="https://www.youtube.com/embed/YOUR_ID" ...></iframe>
+             Drive:  <iframe src="https://drive.google.com/uc?export=preview&id=YOUR_FILE_ID" ...></iframe>
         -->
           <iframe
-            src="https://drive.google.com/file/d/15uhtbV_BqiLkVs9Cf1KvOu2swamg8Rw1/preview"
-            allow="autoplay"
+            src="https://drive.google.com/uc?export=preview&id=15uhtbV_BqiLkVs9Cf1KvOu2swamg8Rw1"
+            allow="autoplay; encrypted-media"
             allowfullscreen
+            title="Gym Coach Demo Video"
           ></iframe>
+          <p class="video-fallback">
+            If the preview is blocked, open the video directly:
+            <a
+              href="https://drive.google.com/file/d/15uhtbV_BqiLkVs9Cf1KvOu2swamg8Rw1/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Watch on Google Drive</a
+            >
+          </p>
         </div>
       </div>
 
